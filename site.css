@@ -1,11 +1,10 @@
 body {
   background-color: beige;
-
 }
 
 .header{
   display: flex;
-  background-color: #90944b;
+  background-color: #75792e;
   justify-content: space-between;
 }
 
@@ -27,6 +26,8 @@ font-weight: bold;
   color: rgb(219, 224, 169);
 font-weight: bold;
 font-size: larger;
+transition-property: color;
+transition: s;
 }
 
 .main-photo{
@@ -87,7 +88,7 @@ nav {
 .social-icons a {
   margin-left: 20px;
   align-self: center;
-transition-property: background-color;
+transition-property: color;
 transition-duration: 1s;
 }
 
@@ -99,7 +100,7 @@ transition-duration: 1s;
   opacity: 0.9;
 }
 .social-icons a i:hover {
-  background-color: #35711d;
+  background-color: #72ad5a;
 
 }
 .footerNavegator{
@@ -109,6 +110,12 @@ transition-duration: 1s;
   margin-left: 1em;
   color: rgb(219, 224, 169);
 align-self: center;
+
+}
+
+a:any-link:hover{
+  color: #83d36c;
+
 }
 @media screen and (max-width:768px) {
 .slogan{
