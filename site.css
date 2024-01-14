@@ -179,22 +179,38 @@ font-size: x-large;
       width: 2% ;
     }
     .text-rigt{
-      width: 98px;% !important;
+      width: 98px !important;
      
     }
 
   }
+
   /*media for .carousel img*/
-  @media screen and (max-width: 1199px) {
-    .containerCarrousel{
-      width: 2%;
-      display: none;
+  @media screen and (max-width: 1200px) {
+ .main-carousel{
+  display: flex;
+  flex-direction: column;
+ }
+
+    .container-carousel{
+
+width: 98% !important;
     }
     
     .text-rigt{
-      width: 98%!important;
-    
+      width: 98% !important;
     }
+    .sale-car{
+      display: flex;
+      flex-direction: column;
+    }
+    .sale-car > div{
+      width: 98%!important;
+    }
+    .sale-car:last-chil{
+      width: 98%!important;
+    }
+
   }
 /* registerForm      */
   .singup-box{
@@ -252,6 +268,8 @@ text-align: center;
   justify-content: center;
   width: 80%;
 }
+
+/*department   */
 .main-carousel{
   display: flex;
   justify-content: space-between;
