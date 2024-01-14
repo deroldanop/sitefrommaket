@@ -78,7 +78,7 @@ nav {
   width: 100%;
   justify-content: space-around;
   height: 50px;
-align-self: self-end;
+
 
 }
 .social-icons {
@@ -87,7 +87,10 @@ align-self: self-end;
 .social-icons a {
   margin-left: 20px;
   align-self: center;
+transition-property: background-color;
+transition-duration: 1s;
 }
+
 .social-icons a i {
   padding: 3px;
   border-radius: 20%;
@@ -95,9 +98,9 @@ align-self: self-end;
   color: rgb(221, 226, 143);
   opacity: 0.9;
 }
-.social-icons a:hover {
-  background-color: #323406;
-  transition: 1s;
+.social-icons a i:hover {
+  background-color: #35711d;
+
 }
 .footerNavegator{
   display: flex;
