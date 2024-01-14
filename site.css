@@ -266,3 +266,14 @@ text-align: center;
 .text-rigt{
   width: 60%;
 }
+.sale-car{
+  display: flex;
+  justify-content: space-around;
+}
+
+.sale-car > div{
+  width: 25%;
+}
+.sale-car:last-chil{
+  width: 30%;
+}
